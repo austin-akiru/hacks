@@ -15,117 +15,95 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
 
-
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <nav class="navbar  navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Home Automation Hacks</a>
     </div>
   </nav>
 
+  <div class="container">
 
-
-  <div class="page-header mb-3">
-    <div class="carousel slide">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="images/hackback.jpg" alt="First slide">
-          <div class="carousel-caption d-none d-md-block">
-            <h1>HOME AUTOMATION HACKS</h1>
-            <h5>A braindump for the forgetful</h5>
+    <div class="row mb-3">
+      <div class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="images/hackback.jpg" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="display-1">HOME AUTOMATION HACKS</h1>
+              <h6 class="display-6">A braindump for the forgetful</h6>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-
-
-  <div class="container">
-
-    <div class="row card mb-3 border-dark">
+    <div class="row  card mb-3 border-dark">
       <div class="row g-0">
         <div class="card-header bg-secondary text-white">
           Current Project
         </div>
         <div class="col-md-2">
-          <img src="https://hack.akiru.xyz/wp-content/uploads/2020/04/installed.jpg" class="card-img-top">
+          <img src="led.jpg" class="card-img-top">
         </div>
         <div class="col-md-10">
-         <div class="card-body">
-           <h5 class="card-title">LEDs</h5>
-           <p class="card-text">relighting the home with colour changing LED strips</p>
-           <a href="/LEDs/indexled.html" class="btn btn-success">View the project</a>
-         </div>
-       </div>
-     </div>
-   </div>
-
-
-  <div class="row">
-<!--
-    <div class="col-sm-3">
-      <div class="card border-dark ">
-        <img src="https://hack.akiru.xyz/wp-content/uploads/2020/04/installed.jpg" class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title">LEDs</h5>
-          <p class="card-text">relighting the home with colour changing LED strips</p>
-          <a href="/LEDs/indexled.html" class="btn btn-success">View the project</a>
-        </div>
-        <div class="card-footer">
-          March '21
-        </div>
-      </div>
-    </div>
-
--->
-
-
-    <div class="col-sm-3">
-      <div class="card border-dark ">
-        <img src="images/Moby-logo.png" class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title">Docker</h5>
-          <p class="card-text">automating useful services on the home network</p>
-          <a href="#" class="btn btn-success">View the project</a>
-        </div>
-        <div class="card-footer">
-          December '20
+          <div class="card-body">
+            <h5 class="card-title">LEDs</h5>
+            <p class="card-text">Ongoing experiemnts to relight the home with colour changing LED strips. Why have static warm white when you can have subtle pulsating muti-colour animations?</p>
+            <a href="/LEDs/indexled.html" class="btn btn-success">View the project</a>
+          </div>
         </div>
       </div>
     </div>
 
 
+    <div class="row  card mb-3 border-dark">
+      <div class="row g-0">
+        <div class="col-md-2">
+          <img src="images/Moby-logo.png" class="card-img-top">
+        </div>
+        <div class="col-md-10">
+          <div class="card-body">
+            <h5 class="card-title">Docker</h5>
+            <p class="card-text">In the past I've acumulated various Raspberry Pis running a single process each. Wouldn't it make sense to move all of these into seperate Docker images running on the server?</p>
+            <a href="/Dockers/index.html" class="btn btn-success">View the project</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <div class="col-sm-3">
-      <div class="card border-dark ">
-        <img src="https://hack.akiru.xyz/wp-content/uploads/2020/04/installed.jpg" class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title">Garge Door Opener</h5>
-          <p class="card-text">Adventures in building Siri controol vehicle access.</p>
-          <a href="#" class="btn btn-success">View the project</a>
+
+    <div class="row  card mb-3 border-dark">
+      <div class="row g-0">
+        <div class="col-md-2">
+          <img src="images/garage.jpg" class="card-img-top">
         </div>
-        <div class="card-footer">
-          May '20
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-3">
-      <div class="card border-dark ">
-        <img src="https://hack.akiru.xyz/wp-content/uploads/2020/04/installed.jpg" class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title">Blogs</h5>
-          <p class="card-text">Building and managing various sites</p>
-          <a href="#" class="btn btn-success">nginx</a>
-          <a href="#" class="btn btn-success">git</a>
-        </div>    
-        <div class="card-footer">
-          March '20
+        <div class="col-md-10">
+          <div class="card-body">
+            <h5 class="card-title">Garage Door Opener</h5>
+            <p class="card-text">A vast adventure in using Arduinos to control garage doors and garden gates, first via the web and then using Siri.</p>
+            <a href="/Dockers/index.html" class="btn btn-success">View the project</a>
+          </div>
         </div>
       </div>
     </div>
+
+    <div class="row  card mb-3 border-dark">
+      <div class="row g-0">
+        <div class="col-md-2">
+          <img src="blog.jpg" class="card-img-top">
+        </div>
+        <div class="col-md-10">
+          <div class="card-body">
+            <h5 class="card-title">Blogs</h5>
+            <p class="card-text">I keep spewnding time on various projects, then having a break and coming back to find I've no idea how everything works. Writing everything down makes obvious sense. Pubishing it also forces me to make it readable. Share and enjoy.</p>
+            <a href="#" class="btn btn-success">nginx</a>
+            <a href="#" class="btn btn-success">git</a>       
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
-</div>
-
 
 </body>
 </html>
